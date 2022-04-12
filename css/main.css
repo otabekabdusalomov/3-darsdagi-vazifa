@@ -1,0 +1,176 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    background-color: #F7CE76;
+    width: 1457px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.big-wrapper {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* WALLETS  */
+
+.wallets {
+    background-color: #F2F2F2;
+    width: 300px;
+}
+
+.wallets-top {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wallets-top-heading {
+    margin: 0;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.wallets-top-img {
+    opacity: 0.6;
+}
+
+.wallets-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 350px;
+    overflow: auto;
+}
+
+.wallets-item {
+    padding: 10px 0;
+    margin-left: 55px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+.wallets-item:hover {
+    border: 2px solid dimgray;
+}
+
+.wallets-item:active {
+    opacity: 0.4;
+}
+
+.wallets-item + .wallets-item{
+    margin-top: 25px;
+}
+
+.wallets-list-desc {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+.wallets-list-desc-second {
+    margin: 0;
+    margin-left: 20px;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+/* BALANC */
+
+.balanc {
+    width: 490px;
+    background-color: #FFFFFF;
+}
+
+.balanc-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.balanc-top-desc {
+    margin: 0;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.balanc-top-desc-second {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.balanc-span {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 55px;
+    width: 400px;
+    height: 2px;
+    background-color: #EDEDED;
+}
+
+.balanc-list {
+    margin: 0;
+    padding: 0;list-style: none;
+    height: 350px;
+    overflow: auto;
+}
+
+.balanc-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.balanc-item + .balanc-item {
+    margin-top: 50px;
+}
+
+.balanc-list-desc-wrapper {
+    width: 300px;
+}
+
+.balanc-list-desc {
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.balanc-list-desc-second {
+    margin: 0;
+    opacity: 0.4;
+}
+
+.balanc-list-desc-third {
+    margin: 0;
+    color: rgb(132, 132, 199);
+    font-weight: 700;
+}
+
+.balanc-list-desc-third-active {
+    color: rgb(86, 234, 86);
+}
